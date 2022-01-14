@@ -1,1 +1,18 @@
-
+<req>  
+  <id>1</id>
+  <Title>При лишних пробелах не выполняется поиск улицы</Title>
+  <Severity>Minor</Severity>
+  <Priority>Low</Priority>
+  <Environment>Windows 10 Домашняя v:21H2 Яндекс браузер v:21.11.4.727 (64-bit)</Environment>
+  <Precondition>1. Открыть сайт https://www.etagi.com/</Precondition>
+  <STR>
+    <ol>
+      <li>Найти форму под названием Улица</li>
+      <li>Ввести слово</li>
+      <li>Поставить перед словом несколько пробелов</li>
+    </ol>
+  </STR>
+  <AR>Поиск не выдает улицу</AR>
+  <ER>Поиск выдает улицу</ER>
+  <Attachments>https://disk.yandex.ru/i/Dj_7J0Sea5EVBQ</Attachments>
+</req>
